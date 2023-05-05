@@ -10,10 +10,12 @@
 
 body,
 html {
-/* background-color: #923cb5;
-background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%); */
 background: #131e25;
-  scroll-behavior: smooth;
+scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 /* NAVBAR */
@@ -43,6 +45,7 @@ header.sticky{
 header.sticky .logo,
 header.sticky ul li a{
   color: #000;
+  font-weight: 600;
 }
 
 /* NAVBAR STICKY AL HACER SCROLL DOWN */
@@ -102,7 +105,7 @@ header ul li a{
   margin: 0;
   font-size: 150px;
   color: rgba(225, 225, 225, .01);
-  background-image: url("https://syltec.es/blog/wp-content/uploads/2021/10/Dise%C3%B1o-sin-t%C3%ADtulo-8-1024x512.jpg");
+  background-image: url("https://4kwallpapers.com/images/wallpapers/colorful-background-texture-multi-color-orange-illustration-2048x2048-3104.jpg");
   background-repeat: repeat;
   -webkit-background-clip: text;
   animation: animate 15s ease-in-out infinite;
@@ -130,96 +133,6 @@ header ul li a{
     background-position: right top;
   }
 }
-
-
-/* .scroll_icon{
-position: absolute;
-left: 870px;
-top: 780px;
-width: 100px;
-height: 100px;
-cursor: pointer;
-} */
-
-
-section:nth-child(2n + 1) {
-  position: relative;
-  height: auto;
-  background: #000;
-  background-image: url(svg3.svg);
-
-  background-size: cover;
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-section:nth-child(2n + 2) {
-  position: relative;
-  height: auto;
-  background: #000;
-  display: flex;
-}
-
-section .imgBx {
-  position: sticky;
-  top: 0;
-  min-width: 50%;
-  height: 100vh;
-}
-
-section .imgBx img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 600px;
-}
-
-section:nth-child(2n + 1) .content {
-  padding: 100px 0 100px 100px;
-  text-align: right;
-}
-
-section:nth-child(2n + 2) .content {
-  padding: 100px 100px 100px 0;
-  text-align: left;
-}
-
-section .content h2 {
-  color: #777;
-  margin: 0 0 20px;
-  font-size: 60px;
-}
-
-section .content p {
-  color: #fff;
-  font-size: 18px;
-}
-
-input[type="submit"] {
-  border: 0;
-  background-color: #fff;
-  display: block;
-  font-size: 18px;
-  margin: 20px auto;
-  font-weight: 500;
-  text-align: center;
-  border: 2px solid #536DFE;
-  padding: 14px 40px;
-  outline: none;
-  color: #000000;
-  border-radius: 24px;
-  cursor: pointer;
-  transition: 0.5s ease-in-out;
-}
-
-input[type="submit"]:hover {
-  background: lightgray;
-}
-
-
-
-
 
 .tex-container-sub{
   /* POSICION DE LAS LETRAS */
@@ -273,74 +186,109 @@ animation: move 7s infinite;
 
 
 
+
+section:nth-child(2n + 1) {
+  position: relative;
+  height: auto;
+  background: #000;
+  background-image: url(/img/background-10.svg);
+ background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+section:nth-child(2n + 2) {
+  background-image: url(/img/background-hobbiess.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: auto;
+  display: flex;
+}
+
+section:nth-child(3) {
+  background-image: url(/img/background-quienn.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: auto;
+  display: flex;
+}
+
+
+
+
+section .imgBx {
+  position: sticky;
+  top: 0;
+  min-width: 50%;
+  height: 100vh;
+}
+
+section .imgBx img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px;
+}
+
+section:nth-child(2n + 1) .content {
+  padding: 100px 0 100px 100px;
+  text-align: right;
+}
+
+section:nth-child(2n + 2) .content {
+  padding: 100px 100px 100px 0;
+  text-align: left;
+}
+
+section .content h2 {
+  color: #777;
+  margin: 0 0 20px;
+  font-size: 60px;
+}
+
+section .content p {
+  color: #fff;
+  font-size: 25.1px;
+}
+
+input[type="submit"] {
+  border: 0;
+  background-color: #fff;
+  display: block;
+  font-size: 18px;
+  margin: 20px auto;
+  font-weight: 500;
+  text-align: center;
+  border: 2px solid #536DFE;
+  padding: 14px 40px;
+  outline: none;
+  color: #000000;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background: lightgray;
+}
+
+
+
+
+
+
+
 /* SECTION 1 */
 
 #h2_section1 {
-  padding-top: 1000px; /* PADING PARA PRODUCIR EFECTO DE LETRA SUBIR */
+  padding-top: 600px; /* PADING PARA PRODUCIR EFECTO DE LETRA SUBIR */
 }
 /* SECTION 1 */
 
-
-
-
-#section2 {
-  color: hsl(0, 0%, 100%);
-  font-family: "Neuton", serif;
-  background-size: 120px, 100%;
-  /* CENTRAS ELEMENTOS EN EL MEDIO */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#margen{
+padding-bottom: 200px;
 }
-
-
-/* replace the default list-style with a custom counter */
-ol {
-  list-style: none;
-  counter-reset: days-counter;
-  font-size: 2rem;
-  position: relative;
-}
-
-/* increment the custom counter */
-ol li {
-  counter-increment: days-counter;
-  /* center the content in the viewport */
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  text-shadow: 0 1px 5px hsla(0, 0%, 0%, 0.8);
-  /* position relative to absolute position the pseudo element behind the text */
-  z-index: 5;
-}
-
-/* display the custom counter with the :before pseudo element, in the very center of the list item */
-ol li:before {
-  content: counter(days-counter);
-  z-index: -5;
-  position: absolute;
-  opacity: 0.5;
-  font-size: 15vh;
-  font-family: "Major Mono Display", monospace;
-  transform: translate(-50%, 0%);
-}
-
-
-/* position the custom counter to the left/right for odd/even list items */
-ol li:nth-child(odd):before {
-  left: 0%;
-}
-
-ol li:nth-child(even):before {
-  left: 100%;
-}
-
-/* add position sticky and position each subsequent list item 7.5vh from the previous */
-ol li {
-  position: sticky;
-}
-/* SECTION 2 */
-
-
