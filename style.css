@@ -1,5 +1,3 @@
-/* FUENTE DE LETRA MAJOR MONO DISPLAY */
-@import url("https://fonts.googleapis.com/css?family=Major+Mono+Display|Neuton&display=swap");
 
 /* ANIMACION SUAVE PARA CAMBIO DE SECCION */
 
@@ -12,8 +10,9 @@
 
 body,
 html {
-background-color: #923cb5;
-background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
+/* background-color: #923cb5;
+background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%); */
+background: #131e25;
   scroll-behavior: smooth;
 }
 
@@ -72,6 +71,11 @@ header ul li {
   list-style: none;
 }
 
+/* cambiar color al pasar por encima */
+header ul li :hover {
+  color: #000;
+}
+
 header ul li a{
   position: relative;
   margin: 0 20px;
@@ -83,20 +87,68 @@ header ul li a{
   transition: 0.6;
 }
 
-.scroll_icon{
+/* ------------------------------------------------------------------------------------- */
+
+/* TEXTOS ANIMADO */
+.text-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container h1 {
+  margin: 0;
+  font-size: 150px;
+  color: rgba(225, 225, 225, .01);
+  background-image: url("https://syltec.es/blog/wp-content/uploads/2021/10/Dise%C3%B1o-sin-t%C3%ADtulo-8-1024x512.jpg");
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  animation: animate 15s ease-in-out infinite;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 150px;
+}
+
+@keyframes animate {
+
+  0%,
+  100% {
+    background-position: left top;
+  }
+
+  25% {
+    background-position: right bottom;
+  }
+
+  50% {
+    background-position: left bottom;
+  }
+
+  75% {
+    background-position: right top;
+  }
+}
+
+
+/* .scroll_icon{
 position: absolute;
 left: 870px;
 top: 780px;
 width: 100px;
 height: 100px;
 cursor: pointer;
-}
+} */
 
 
 section:nth-child(2n + 1) {
   position: relative;
   height: auto;
   background: #000;
+  background-image: url(svg3.svg);
+
+  background-size: cover;
   display: flex;
   flex-direction: row-reverse;
 }
@@ -167,47 +219,7 @@ input[type="submit"]:hover {
 
 
 
-/* TEXTOS ANIMADO */
-.text-container {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.text-container h1 {
-  margin: 0;
-  font-size: 150px;
-  color: rgba(225, 225, 225, .01);
-  background-image: url("https://syltec.es/blog/wp-content/uploads/2021/10/Dise%C3%B1o-sin-t%C3%ADtulo-8-1024x512.jpg");
-  background-repeat: repeat;
-  -webkit-background-clip: text;
-  animation: animate 15s ease-in-out infinite;
-  text-align: center;
-  font-weight: 900;
-  margin-bottom: 150px;
-}
-
-@keyframes animate {
-
-  0%,
-  100% {
-    background-position: left top;
-  }
-
-  25% {
-    background-position: right bottom;
-  }
-
-  50% {
-    background-position: left bottom;
-  }
-
-  75% {
-    background-position: right top;
-  }
-}
 
 .tex-container-sub{
   /* POSICION DE LAS LETRAS */
@@ -228,6 +240,7 @@ input[type="submit"]:hover {
   font-size: 80px;
   font-weight: 900;
   /* MEDIDAS */
+  color: #fff;
 
  /* ESCONDER LOS ELEMENTOS NO MOSTRADOS */
   overflow: hidden;

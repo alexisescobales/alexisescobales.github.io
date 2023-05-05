@@ -4,16 +4,13 @@ document.addEventListener("DOMContentLoaded", (event) => {
         header.classList.toggle("sticky", window.scrollY > 0);
     })
 
-
-    const video = document.getElementById("video");
-
-    video.addEventListener("click", function () {
-        
-    });
+  
 
 });
 
-
+  function openPopup() {
+        document.getElementById("popup1").classList.toggle("active");
+    }
 
 
 
