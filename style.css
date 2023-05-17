@@ -46,25 +46,38 @@ header.sticky{
 }
 
 /* CAMBIO DE COLOR DE LI */
-header.sticky .logo,
+
 header.sticky ul li a{
   color: #000;
   font-weight: 600;
+  font-size: 20px;
 }
+
 
 /* NAVBAR STICKY AL HACER SCROLL DOWN */
 
 
 header .logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  font-weight: 700;
-  color: #fff;
-  text-decoration: none;
-  font-size: 32px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  background-image: url(/logoblanco.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
   transition: 0.6;
 }
+
+.logoN {
+  position: relative;
+  background-image: url(/logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+ }
 
 header ul{
   position: relative;
@@ -90,12 +103,14 @@ header ul li a{
   color: #fff;
   letter-spacing: 2px;
   font-weight: 700px;
-  font-size: 18px;
+  font-size: 20px;
   transition: 0.6;
 }
 
-/* ------------------------------------------------------------------------------------- */
 
+
+
+     
 /* TEXTOS ANIMADO */
 .text-container {
   height: 100vh;
@@ -108,7 +123,7 @@ header ul li a{
 .text-container h1 {
   margin: 0;
   font-size: 150px;
-  color: rgba(225, 225, 225, .01);
+  color: rgba(255, 0, 0, 0.01);
   background-image: url("https://4kwallpapers.com/images/wallpapers/colorful-background-texture-multi-color-orange-illustration-2048x2048-3104.jpg");
   background-repeat: repeat;
   -webkit-background-clip: text;
@@ -186,6 +201,7 @@ animation: move 7s infinite;
   100%{margin-top: 0px;}
 }
 /* TEXTOS ANIMADO */
+
 
 
 
@@ -268,11 +284,9 @@ animation: move 7s infinite;
   margin-inline: auto;
 }
 
-/* #competencias_card{
-background-image: url(/competenciass.svg);
-background-repeat: no-repeat;
-background-size: cover;
-} */
+#pading_card{
+  padding-top: 60px;
+}
 
 
 
