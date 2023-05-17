@@ -31,4 +31,12 @@ document.addEventListener("DOMContentLoaded", (event) => {
             logo.classList.add('logo');
         }
     });
+
+    document.getElementById("card_itb").onclick = function () {
+        window.open("https://www.itb.cat/", "_blank");
+    };
+
+    document.getElementById("card_cep").onclick = function () {
+        window.open("https://politecnics.barcelona/es/", "_blank");
+    };
 });

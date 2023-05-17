@@ -42,14 +42,15 @@ header{
 /* CONF NAVBAR RECTANLE */
 header.sticky{
   padding: 10px 100px;
-  background: #ffffff;
+  background: whitesmoke;
+  border-radius: 10px;
 }
 
 /* CAMBIO DE COLOR DE LI */
 
 header.sticky ul li a{
   color: #000;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 20px;
 }
 
@@ -245,8 +246,8 @@ animation: move 7s infinite;
   align-items: center;
 }
 
-.card_sec{
-  width:max-content;
+.card_sec{ 
+  width:1900PX;
   height: 900px;
   background: rgb(20, 50, 100, 0.9);
   background: #001220;;
@@ -293,6 +294,7 @@ animation: move 7s infinite;
 
 
 
+
 /* EFECTO DE BOMBEO PARA LAS CARDS */
 @keyframes pulse {
   0% {
@@ -314,7 +316,7 @@ animation: move 7s infinite;
 
 
 .container {
-  width: 100%;
+  width: max-content;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -335,6 +337,7 @@ animation: move 7s infinite;
   width: 400px;
   height: 250px;
   transition: 0.5s;
+  border-radius: 15px;
 }
 
 .container .card .face.face1{
@@ -414,6 +417,19 @@ animation: move 7s infinite;
   margin: 10px; /* Agrega espacio entre los iconos */
 }
 
+#card_itb{
+width: 500px;
+height: 500px;
+margin-top: 20px;
+background-image: url(/itb.JPG);
+}
+
+#card_cep{
+  width: 500px;
+  height: 500px;
+  margin-top: 20px;
+  background-image: url(/cep.jpg);
+}
 
 
 
@@ -493,6 +509,8 @@ input[type="submit"]:hover {
   background: lightgray;
 }
 
+
+/* SEPARADOR */
 .triangle {
   position: relative;
   background: #2c3e50;
@@ -511,8 +529,7 @@ input[type="submit"]:hover {
   left: 50%;
   transform: translateX(-50%) translateY(100%);
 }
-
-
+/* SEPARADOR */
 
 
 
