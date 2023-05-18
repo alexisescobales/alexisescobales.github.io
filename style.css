@@ -431,6 +431,13 @@ background-image: url(/img/img_estudios/itb.JPG);
   background-image: url(/img/img_estudios/cep.jpg);
 }
 
+#card_nttbcn{
+  width: 500px;
+  height: 500px;
+  margin-top: 20px;
+  background-image: url(/img/img_estudios/cep.jpg);
+}
+
 
 
 
