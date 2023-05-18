@@ -421,14 +421,14 @@ animation: move 7s infinite;
 width: 500px;
 height: 500px;
 margin-top: 20px;
-background-image: url(/itb.JPG);
+background-image: url(/img/img_estudios/itb.JPG);
 }
 
 #card_cep{
   width: 500px;
   height: 500px;
   margin-top: 20px;
-  background-image: url(/cep.jpg);
+  background-image: url(/img/img_estudios/cep.jpg);
 }
 
 
