@@ -216,6 +216,42 @@ animation: move 7s infinite;
   flex-direction: row-reverse;
 }
 
+dialog::backdrop {
+  background: rgba(234, 206, 227, 0.9);
+}
+
+#modal{
+margin: 0 auto;
+margin-top: 120px;
+text-align: center;
+width: 1100px;
+height: 600px;
+background-color: grey;
+border-radius: 15px;
+}
+
+.button-black {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.button-black:hover {
+  background-color: #c2afaf;
+  color: #000;
+}
+
+
+
+
 .hobbies{
   background-image: url(/img/background-hobbiess.svg);
   background-size: cover;
