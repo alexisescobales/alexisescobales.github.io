@@ -245,8 +245,7 @@ border-radius: 15px;
 }
 
 .button-black:hover {
-  background-color: #c2afaf;
-  color: #000;
+  background-color: #130202;
 }
 
 
@@ -578,6 +577,9 @@ input[type="submit"]:hover {
 
 
 /* SECTION 1 */
+#h2_section2 {
+  padding-top: 762px; /* PADING PARA PRODUCIR EFECTO DE LETRA SUBIR */
+}
 
 #h2_section1 {
   padding-top: 600px; /* PADING PARA PRODUCIR EFECTO DE LETRA SUBIR */
