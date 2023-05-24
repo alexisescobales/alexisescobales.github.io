@@ -185,7 +185,7 @@
             <div class="card">
                 <div class="face face1" id="card_itb">
                 </div>
-                <div class="face face2" style="width: 500px; height: 180px;">
+                <div class="face face2" style="width: 500px; height: 180px; color: white;">
                     <div class="content">
                         <h1>INSTITUT TECNOLOGIC BARCELONA</h1>
                         <br>
@@ -198,7 +198,7 @@
             <div class="card">
                 <div class="face face1" id="card_cep">
                 </div>
-                <div class="face face2" style="width: 500px; height: 180px;">
+                <div class="face face2" style="width: 500px; height: 180px; color: white;">
                     <div class="content">
                         <h1>CENTRE D'ESTUDIS POLITECNICS</h1>
                         <br>
@@ -214,7 +214,7 @@
 
     <section id="pading_card">
         <h2 class="fancy" id="h2_estudios" style=" --w: 50vw;--c: #5c5454;--b:4px;--g:-5px; margin-top: 42px;">
-            ESTUDIOS
+            PROYECTOS
         </h2>
         <div class="container">
             <div class="card">
@@ -247,10 +247,22 @@
     </section>
 
     <section id="pading_card">
-        <h2 class="fancy" id="h2_estudios" style=" --w: 50vw;--c: #5c5454;--b:4px;--g:-5px; margin-top: 42px;">
+        <h2 class="fancy" style=" --w: 50vw;--c: #5c5454;--b:4px;--g:-5px; margin-top: 42px;">
             CONTACTO
         </h2>
-        <div class="container">
+        <div class="container_contact">
+            <div class="contact-box">
+                <div class="left"></div>
+                <div class="right">
+                    <form action="https://formspree.io/f/xwkjjolb" method="POST">
+                        <input type="text" class="field" name="name" placeholder="Name">
+                        <input type="email" class="field" name="email" placeholder="Email">
+                        <input type="text" class="field" name="phone" placeholder="Phone">
+                        <textarea name="message" class="field" placeholder="Messeage"></textarea>
+                        <button type="submit" class="btn">Send</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
 
