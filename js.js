@@ -56,4 +56,17 @@ document.addEventListener("DOMContentLoaded", (event) => {
     document.getElementById("card_cep").onclick = function () {
         window.open("https://politecnics.barcelona/es/", "_blank");
     };
+<<<<<<< HEAD
+
+    //REEDIRECION A LA PAGINA AL HACER CLICK EN EL DIV CARD_CEP
+    document.getElementById("card_cep").onclick = function () {
+        window.open("https://politecnics.barcelona/es/", "_blank");
+    };
+
+    //REEDIRECION A LA PAGINA AL HACER CLICK EN EL DIV CARD_CEP
+    document.getElementById("card_cep").onclick = function () {
+        window.open("https://politecnics.barcelona/es/", "_blank");
+    };
+=======
+>>>>>>> parent of 9ab44e4 (changes)
 });
