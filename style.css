@@ -464,8 +464,8 @@ background-image: url(/img/img_estudios/itb.JPG);
 }
 
 #card_nttbcn{
-  width: 600px;
-  height: 400px;
+  width: 680px;
+  height: 360px;
   margin-top: 20px;
   background-image: url(/img/nttbcn_video.gif);
   background-repeat: no-repeat;
@@ -473,10 +473,10 @@ background-image: url(/img/img_estudios/itb.JPG);
 
 
 #card_kenia{
-  width: 600px;
-  height: 400px;
+  width: 680px;
+  height: 358px;
   margin-top: 20px;
-  background-image: url(/img/nttbcn_video.gif);
+  background-image: url(/img/KENIA.gif);
   background-repeat: no-repeat;
 }
 
@@ -615,14 +615,14 @@ padding-bottom: 200px;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	background-color: #fff;
+	background-color: #2b2a2a;
 	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
   border-radius: 15px;
 }
 
 .left{
-	background: url("/contact.png") no-repeat center;
-	background-size:contain;
+	background: url("/img/CONTACT.png") no-repeat center;
+  background-size:410PX;
   border-radius: 15px;
 	height: 100%;
 }
