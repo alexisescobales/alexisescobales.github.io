@@ -464,10 +464,20 @@ background-image: url(/img/img_estudios/itb.JPG);
 }
 
 #card_nttbcn{
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 400px;
   margin-top: 20px;
-  background-image: url(/img/img_estudios/cep.jpg);
+  background-image: url(/img/nttbcn_video.gif);
+  background-repeat: no-repeat;
+}
+
+
+#card_kenia{
+  width: 600px;
+  height: 400px;
+  margin-top: 20px;
+  background-image: url(/img/nttbcn_video.gif);
+  background-repeat: no-repeat;
 }
 
 
